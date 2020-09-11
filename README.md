@@ -1,10 +1,11 @@
 # tf_img2vec
+This library uses the ResNet50 model in TensorFlow Keras, pre-trained on Imagenet, to generate a 2048 embedding vector for an input image. 
 
 # Install
 1. With a local version of the code:
-```git clone https://github.com/Lambert-Shirzad/tf_img2vec
-cd ./tf_img2vec
-pip install --user ./```
+```git clone https://github.com/Lambert-Shirzad/tf_img2vec```
+```cd ./tf_img2vec```
+```pip install --user ./```
 
 2. Directly from github:
 ```pip install git+git://github.com/Lambert-Shirzad/tf_img2vec.git```
